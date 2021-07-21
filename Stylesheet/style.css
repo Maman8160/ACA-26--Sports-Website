@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+
+*{
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+body{
+    margin : 0px ;
+}
+
+.head{
+    top: 0 ;
+    min-height: 100vh;
+    background: url("../Image/messi\ 01.jpg") no-repeat center ;
+    background-size:100% auto ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.head1{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.head2{
+    display: flex;    
+}
+
+li{
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    padding: 0px 20px;
+    color: white;
+}
+
+.btn{
+    width: 150px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.15);
+    color: white;
+    transition: ease-out .3s;
+    border:none ;
+    border-radius: 4px;
+    font-size: 1rem;
+    outline: none;
+    box-shadow: inset 0 0 0 0 lightblue;
+}
+
+.btn:hover{
+    box-shadow: inset 150px 0 0 0 lightblue;
+    color: black;
+}
+
+.head3{
+    color: rgb(55, 255, 0);
+    font-size: 1.2rem;
+    position: absolute;
+    top: 19rem ;
+    left: 4rem;
+}
+
+.intro{
+    background: url('../Image/wp6174542-messi-art-wallpapers.jpg') no-repeat center;
+    background-size:100% auto ;
+    display: flex;
+}
+
+.intro01 {
+    display: flex;
+    color: white;
+    padding-left: 3%;
+    padding-right: 3%;
+    position: center;
+}
+  
+.ha {
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 3%;
+    padding-right: 3%;
+    background:rgba(0, 0, 0, 0.75);
+}
+
+.ha h1{
+    text-align: center;
+}
+
+table, th, tr, td{
+    border: white 2px solid ;
+    text-align: center;
+}
+
+.img{
+    background: url("../Image/sports.jpg") no-repeat center;
+    background-size: cover;
+    min-height: 50vh;
+}
+
+.img1{
+    display: flex;
+    justify-content: space-around;
+    top: 50px ;
+}
+
+img{
+    width : 450px ;
+    border-radius: 15px;
+}
+
+.img h1{
+    text-align: center;
+    background:green;
+    color : white;
+}
